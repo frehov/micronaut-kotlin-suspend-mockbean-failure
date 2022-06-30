@@ -1,0 +1,11 @@
+*.java		    text
+*.bat		    text eol=crlf
+*.xml		    text
+*.gradle	    text
+*.kt		    text
+*.kts		    text
+*.sh		    text
+gradlew         text
+*.properties	text
+*.xml		    text
+*.jar           binary

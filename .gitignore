@@ -1,0 +1,12 @@
+*.iml
+out/
+.gradle/
+build/
+.idea/
+target/
+config_override/
+.DS_Store
+*.zip
+
+**/*/.terraform/
+.terraform.lock.hcl

@@ -1,0 +1,21 @@
+micronaut:
+  application:
+    name: mockbean-status
+
+  http:
+    client:
+      read-timeout: 60s
+
+  security:
+    basic-auth:
+      enabled: false
+    token:
+      roles-name: "scope"
+      roles-separator: " "
+      signatures:
+        jwks:
+          authserver:
+            url: ${jwksUrl}
+
+# for overriding when doing local development
+jwksUrl: https://example.com/.well-known/jwks.json
